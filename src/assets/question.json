@@ -1,0 +1,68 @@
+{
+  "question":[
+    {
+      "questionText": "___old book",
+      "options": [
+        {
+          "text":"an",
+          "currect": true
+        },
+        {
+          "text":"the"
+        }
+        ,
+        {
+          "text":"a"
+        }
+      ]
+    },
+    {
+      "questionText": "What do you usually have for ___ breakfast?",
+      "options": [
+        {
+          "text":"the",
+          "currect": true
+        },
+        {
+          "text":"a"
+        }
+        ,
+        {
+          "text":"an"
+        }
+      ]
+    },
+    {
+      "questionText": "Do you have ___ macbook?",
+      "options": [
+        {
+          "text":"the"
+        },
+        {
+          "text":"a",
+          "currect": true
+        }
+        ,
+        {
+          "text":"an"
+        }
+      ]
+    },
+    {
+      "questionText": "She is ___ friend of mine",
+      "options": [
+        {
+          "text":"the"
+        },
+        {
+          "text":"a",
+          "currect": true
+        }
+        ,
+        {
+          "text":"an"
+        }
+      ]
+    }
+  ]
+}

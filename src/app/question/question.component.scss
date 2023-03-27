@@ -1,0 +1,7 @@
+li{
+  cursor: pointer;
+  transition: background .5s ease;
+  &:hover{
+    background-color: #57C84D;
+  }
+}

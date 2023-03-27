@@ -1,1 +1,17 @@
-<p>welcome works!</p>
+<div class="w-50 mx-auto p-5 welcome mt-3">
+  <h1 class="display-6 fw-bold text-light text-center">Welcome To Quiz Game</h1>
+  <h4 class="text-light fw-bold">Rules:</h4>
+  <ul class="list-group list-group-lush rules">
+    <li class="list-group-item"><span class="fw-bold">1-)</span>Correct question gives you <span class="fw-bold text-primary">10 </span>points</li>
+    <li class="list-group-item"><span class="fw-bold">2-)</span>Incorrect question gives you <span class="fw-bold text-primary">-10 </span>points</li>
+    <li class="list-group-item"><span class="fw-bold">3-)</span>You will have <span class="fw-bold text-primary">60 secund</span> to answer each questions</li>
+    <li class="list-group-item"><span class="fw-bold">4-)</span>Refreshing the page will reset the <span class="fw-bold text-primary">Games</span></li>
+  </ul>
+  <h1 class="display-6 fw-bold text-light text-center">Good Luck Bro</h1>
+  <div class="name col-md-4 my-3">
+    <input #name type="text" placeholder="Enter your name..." class="form-control">
+  </div>
+  <div class="d-flex justify-content-center">
+    <button (click)="startGame()" class="btn btn-outline-light btn-lg" routerLink="/{{routeGame}}">Start Game</button>
+  </div>
+</div>
