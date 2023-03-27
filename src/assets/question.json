@@ -1,7 +1,7 @@
 {
   "question":[
     {
-      "questionText": ".... old book",
+      "questionText": "___old book",
       "options": [
         {
           "text":"an",
@@ -17,7 +17,7 @@
       ]
     },
     {
-      "questionText": "What do you usually have for .... breakfast?",
+      "questionText": "What do you usually have for ___ breakfast?",
       "options": [
         {
           "text":"the",
@@ -33,7 +33,7 @@
       ]
     },
     {
-      "questionText": "Do you have .... macbook?",
+      "questionText": "Do you have ___ macbook?",
       "options": [
         {
           "text":"the"
@@ -49,7 +49,7 @@
       ]
     },
     {
-      "questionText": "She is ....friend of mine",
+      "questionText": "She is ___ friend of mine",
       "options": [
         {
           "text":"the"

@@ -11,6 +11,8 @@ export class QuestionComponent implements OnInit {
   public name: string = ""
   public questionList : any = []
   public currentQuestion: number =0
+  public points: number = 0
+  counter = 60
 
   constructor(private questionService: QuestionService){}
 
@@ -24,5 +26,13 @@ export class QuestionComponent implements OnInit {
       .subscribe(res =>{
         this.questionList = res.question
       })
+  }
+
+  nextQuestion() {
+    this.currentQuestion++
+  }
+
+  prevQuestion() {
+    this.currentQuestion--
   }
 }
