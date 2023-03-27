@@ -9,6 +9,8 @@ export class WelcomeComponent implements OnInit {
 
   @ViewChild('name') nameKey !: ElementRef
 
+  public routeGame: string = ""
+
   constructor(){}
 
   ngOnInit(): void {
@@ -18,10 +20,9 @@ export class WelcomeComponent implements OnInit {
   startGame(){
     if(this.nameKey.nativeElement.value === ""){
       alert("Please enter your name")
+      this.routeGame=="welcome"
     }
-    else{
-      localStorage.setItem("name", this.nameKey.nativeElement.value)
-    }
-
+    localStorage.setItem("name", this.nameKey.nativeElement.value)
+    this.routeGame="question"
   }
 }
