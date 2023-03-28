@@ -9,8 +9,7 @@
         },
         {
           "text":"the"
-        }
-        ,
+        },
         {
           "text":"a"
         }
@@ -25,8 +24,7 @@
         },
         {
           "text":"a"
-        }
-        ,
+        },
         {
           "text":"an"
         }
@@ -41,8 +39,7 @@
         {
           "text":"a",
           "currect": true
-        }
-        ,
+        },
         {
           "text":"an"
         }
@@ -57,10 +54,108 @@
         {
           "text":"a",
           "currect": true
+        },
+        {
+          "text":"an"
+        }
+      ]
+    },
+    {
+      "questionText": "I would like to see ___ unicorn.",
+      "options": [
+        {
+          "text":"the"
+        },
+        {
+          "text":"a",
+          "currect": true
+        },
+        {
+          "text":"an"
+        }
+      ]
+    },
+    {
+      "questionText": "She is ___ cute girl",
+      "options": [
+        {
+          "text":"the"
+        },
+        {
+          "text":"a",
+          "currect": true
+        },
+        {
+          "text":"an"
+        }
+      ]
+    },
+    {
+      "questionText": "There's ___ apple on ___ table",
+      "options": [
+        {
+          "text":"the/a"
+        },
+        {
+          "text":"an/the",
+          "currect": true
+        },
+        {
+          "text":"an/a"
+        },
+        {
+          "text":"an/a"
+        }
+      ]
+    },
+    {
+      "questionText": "___ story that you told me was interesting",
+      "options": [
+        {
+          "text":"the",
+          "currect": true
+        },
+        {
+          "text":"a"
         }
         ,
         {
           "text":"an"
+        }
+      ]
+    }
+    ,
+    {
+      "questionText": "I'have got ___ headache",
+      "options": [
+        {
+          "text":"the"
+        },
+        {
+          "text":"a",
+          "currect": true
+        }
+        ,
+        {
+          "text":"an"
+        }
+      ]
+    },
+    {
+      "questionText": "I like to drink ___ cup of hot chocolate at night",
+      "options": [
+        {
+          "text":"a/the"
+        },
+        {
+          "text":"a/a",
+          "currect": true
+        },
+        {
+          "text":"-/the"
+        },
+        {
+          "text":"a/-"
         }
       ]
     }

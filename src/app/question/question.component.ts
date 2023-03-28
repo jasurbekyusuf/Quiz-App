@@ -18,6 +18,7 @@ export class QuestionComponent implements OnInit {
   inCorrectAnswer: number = 0
   interval$: any;
   progress: string = "0"
+  isQuizCompeted: boolean = false
 
   constructor(private questionService: QuestionService){}
 
@@ -43,17 +44,27 @@ export class QuestionComponent implements OnInit {
   }
 
   answer(currentQno: number, option: any){
+    if(currentQno === this.questionList.length) {
+      setTimeout(() => {
+        this.isQuizCompeted = true
+      }, 1000);
+      this.stopCounter()
+    }
     if(option.currect){
       this.points+=10
       this.correctAnswer++
-      this.currentQuestion++
-      this.resetCounter()
-      this.getProgressPercent()
+      setTimeout(() =>{
+        this.currentQuestion++
+        this.resetCounter()
+        this.getProgressPercent()
+      }, 1000)
     }else{
-      this.currentQuestion++
       this.inCorrectAnswer++
-      this.resetCounter()
-      this.getProgressPercent()
+      setTimeout(() => {
+        this.currentQuestion++
+        this.resetCounter()
+        this.getProgressPercent()
+      }, 1000);
       this.points -= 10
     }
   }
